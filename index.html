@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="add-new-todo">
+        <input type="text" name="new-todo-list" id="new-todo-receive">
+        <button onclick="add()">Add</button>
+    </div>
+    <div class="hide" id="edit-todo">
+        <input type="text" name="edit-todo" id="eidit-todo-recieve">
+        <button onclick="saveUpdateTodo()">Save</button>
+    </div>
+    
+    <div class="todo-list"></div>
+    <p class="p-element"></p>
+    <script src="app.js"></script>
+</body>
+</html>

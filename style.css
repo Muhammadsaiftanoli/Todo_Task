@@ -1,0 +1,15 @@
+.p-element {
+    color: #ff0000;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+div {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid #ff0000;
+}
